@@ -23,19 +23,16 @@ footer {
 
 nav {
   background-color: #720381;
-  padding: 10px;
+  padding: 5px;
   position: sticky;
   top: 0;
-  z-index: 10;
 }
 
 nav ul {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding: 0;
-  margin: 0;
+    padding-inline: 4rem;
+    display: flex;
+
+    gap: 2rem;
 }
 
 nav li {
@@ -43,16 +40,15 @@ nav li {
 }
 
 nav a {
-  font-size: 18px;
-  font-weight: 500;
-  text-decoration: none;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  transition: background 0.3s ease;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+
+    color: white;
 }
 
 nav a:hover {
+  font-weight: bold;
   background-color: black;
   color: #fff;
 }
@@ -96,7 +92,7 @@ aside {
 }
 
 header {
-  display: block;
+  display: iniline;
 }
 
 /* Tablet */
@@ -128,6 +124,7 @@ header {
     width: 100%;
   }
 }
+
 
 
 
