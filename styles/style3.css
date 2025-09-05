@@ -57,15 +57,13 @@ nav a:hover {
   color: #fff;
 }
 
- .featured-image {
+.featured-image {
     width: 100%;
-    height: 300px;         /* tinggi tetap */
-    object-fit: contain;   /* biar gambar tidak terpotong */
-    background: #fff;      /* kasih background biar ada ruang kosong */
-    border-radius: 10px;
+    height: auto;   /* biar tinggi ikut proporsi asli */
+    max-width: 100%; /* jangan melebihi lebar container */
+    border-radius: 10px; /* opsional biar rapi */
 }
 
-}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -132,4 +130,5 @@ header {
     width: 100%;
   }
 }
+
 
